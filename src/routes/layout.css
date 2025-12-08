@@ -14,8 +14,16 @@
 
 .walkinggojo {
 	position: relative;
+	z-index: 30;
 	left: 0;
 	animation: slidegojo 7s linear infinite;
+}
+
+.fallinglink {
+	position: absolute;
+	z-index: 5;
+	left: 50vw;
+	animation: falllink 1s linear infinite;
 }
 
 @keyframes slide {
@@ -45,5 +53,20 @@
 	}
 	100% {
 		transform: translateX(-200px);
+	}
+}
+
+@keyframes falllink {
+	from {
+		transform: translateY(0);
+	}
+	to {
+		transform: translateY(100vh);
+	}
+	0% {
+		transform: translateY(-200px);
+	}
+	100% {
+		transform: translateY(100vh);
 	}
 }
