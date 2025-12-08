@@ -1,0 +1,49 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+.comic-sans {
+	font-family: 'Comic Relief', system-ui;
+}
+
+.walkingskele {
+	position: relative;
+	left: 0;
+	animation: slide 4s linear infinite;
+}
+
+.walkinggojo {
+	position: relative;
+	left: 0;
+	animation: slidegojo 7s linear infinite;
+}
+
+@keyframes slide {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(100vw);
+	}
+	0% {
+		transform: translateX(-200px);
+	}
+	100% {
+		transform: translateX(100vw);
+	}
+}
+@keyframes slidegojo {
+	from {
+		transform: translateX(100vw);
+	}
+	to {
+		transform: translateX(0);
+	}
+
+	0% {
+		transform: translateX(100vw);
+	}
+	100% {
+		transform: translateX(-200px);
+	}
+}
