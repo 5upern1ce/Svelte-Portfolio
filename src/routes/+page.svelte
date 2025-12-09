@@ -40,9 +40,9 @@
 		</li>
 
 		<li
-			class="comic-sans my-3 rounded-3xl border-2 border-amber-600 bg-amber-400 text-5xl sm:justify-self-start md:ml-60 md:inline-flex md:w-1/3 md:justify-self-auto"
+			class="comic-sans my-3 rounded-3xl border-2 border-amber-600 bg-amber-400 text-5xl sm:justify-self-start md:ml-60 md:max-w-1/5 md:justify-self-auto"
 		>
-			C. My styles are <img src="/RAD.gif" alt="RAD" />
+			C. My styles are <img src="/RAD.gif" alt="RAD" class="" />
 		</li>
 		<br />
 
